@@ -25,7 +25,8 @@
   "types": "src/plugin-openapi.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "postinstall": "tsc"
   },
   "devDependencies": {
     "@docusaurus/types": ">=2.3.0 <2.5.0",
